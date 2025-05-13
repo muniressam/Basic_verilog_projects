@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\MODELSIM\Verilog Projects\CRC
+vAuto_Door
+Z1 !s100 i:Bz`A_A_JB_]@2k]HbPJ0
+Z2 I8laAQWD0z@5:Cf6Y5WE^60
+Z3 VH_ehPWeKG;4C<WbQaZI3f2
+Z4 dF:\MODELSIM\Verilog Projects\Automatic Door
+Z5 w1709767267
+Z6 8F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v
+Z7 FF:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v|
+Z10 o-work work -O0
+Z11 n@auto_@door
+!i10b 1
+!s85 0
+Z12 !s108 1709770155.813000
+Z13 !s107 F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v|
+!s101 -O0
+vAuto_Door_TB
+!i10b 1
+!s100 bgRTa<5AVdh;KF7l^Y6=h0
+ITIZFF2cmH8BPQ=zLVJeSI1
+Z14 VaMlE6nm56dIg3MQgJhXM71
+R4
+w1709770145
+Z15 8F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v
+Z16 FF:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1709770155.954000
+!s107 F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v|
+Z17 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v|
+!s101 -O0
+R10
+Z18 n@auto_@door_@t@b

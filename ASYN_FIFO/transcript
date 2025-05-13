@@ -1,0 +1,1087 @@
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:29:26 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM_RX
+# -- Compiling module data_sampling
+# -- Compiling module edge_bit_counter
+# -- Compiling module deserializer
+# -- Compiling module parity_check
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module UART_RX
+# -- Compiling module UART_RX_TB
+# 
+# Top level modules:
+# 	UART_RX_TB
+# End time: 16:29:26 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+accs" work.UART_RX_TB 
+# Start time: 16:29:27 on Aug 15,2024
+# Loading work.UART_RX_TB
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# ** Error: (vsim-3063) Port 'clk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RX_TB/DUT File: UART_RX_TB.v Line: 19
+# ** Error: (vsim-3063) Port 'rst' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RX_TB/DUT File: UART_RX_TB.v Line: 19
+# ** Error: (vsim-3063) Port 'DATA_VALID' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RX_TB/DUT File: UART_RX_TB.v Line: 19
+# ** Error: (vsim-3063) Port 'P_DATA' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RX_TB/DUT File: UART_RX_TB.v Line: 19
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:32:59 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM_RX
+# -- Compiling module data_sampling
+# -- Compiling module edge_bit_counter
+# -- Compiling module deserializer
+# -- Compiling module parity_check
+# -- Compiling module start_check
+# -- Compiling module stop_check
+# -- Compiling module UART_RX
+# -- Compiling module UART_RX_TB
+# 
+# Top level modules:
+# 	UART_RX_TB
+# End time: 16:32:59 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+accs" work.UART_RX_TB 
+# Start time: 16:29:27 on Aug 15,2024
+# Loading work.UART_RX_TB
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Test Case num  1 is PASSED data = ab and expect out = ab ,
+# Test Case num  2 is PASSED data = bb and expect out = bb ,
+# Test Case num  3 is PASSED data = fc and expect out = fc ,
+# Test Case num  4 is PASSED data = 98 and expect out = 98 ,
+# Test Case num  5 is PASSED data = 55 and expect out = 55 ,
+# ** Note: $stop    : UART_RX_TB.v(70)
+#    Time: 912120 ps  Iteration: 0  Instance: /UART_RX_TB
+# Break in Module UART_RX_TB at UART_RX_TB.v line 70
+quit -sim
+# End time: 16:33:20 on Aug 15,2024, Elapsed time: 0:03:53
+# Errors: 4, Warnings: 4
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project UART_TX
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:33:59 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM
+# ** Warning: FSM.v(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module MUX
+# -- Compiling module Parity_Calc
+# -- Compiling module Serializer
+# -- Compiling module UART_TX
+# -- Compiling module UART_TX_TB
+# 
+# Top level modules:
+# 	UART_TX_TB
+# End time: 16:33:59 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+accs" work.UART_TX_TB 
+# Start time: 16:33:59 on Aug 15,2024
+# Loading work.UART_TX_TB
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# ** Error (suppressible): (vsim-3584) UART_TX_TB.v(20): Module parameter 'P_Width' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_TX_TB File: UART_TX_TB.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:35:24 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM
+# ** Warning: FSM.v(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module MUX
+# -- Compiling module Parity_Calc
+# -- Compiling module Serializer
+# -- Compiling module UART_TX
+# -- Compiling module UART_TX_TB
+# 
+# Top level modules:
+# 	UART_TX_TB
+# End time: 16:35:24 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+accs" work.UART_TX_TB 
+# Start time: 16:33:59 on Aug 15,2024
+# Loading work.UART_TX_TB
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# ** Error (suppressible): (vsim-3584) UART_TX_TB.v(20): Module parameter 'P_Width' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_TX_TB File: UART_TX_TB.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:35:52 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM
+# ** Warning: FSM.v(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module MUX
+# -- Compiling module Parity_Calc
+# -- Compiling module Serializer
+# -- Compiling module UART_TX
+# -- Compiling module UART_TX_TB
+# 
+# Top level modules:
+# 	UART_TX_TB
+# End time: 16:35:52 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+accs" work.UART_TX_TB 
+# Start time: 16:33:59 on Aug 15,2024
+# Loading work.UART_TX_TB
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# ** Error: (vsim-3063) Port 'CLK' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /UART_TX_TB/DUT File: UART_TX_TB.v Line: 20
+# ** Error: (vsim-3063) Port 'RST' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /UART_TX_TB/DUT File: UART_TX_TB.v Line: 20
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 3
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:28 on Aug 15,2024
+# vlog -reportprogress 300 -f sourcfile.txt 
+# -- Compiling module FSM
+# ** Warning: FSM.v(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module MUX
+# -- Compiling module Parity_Calc
+# -- Compiling module Serializer
+# -- Compiling module UART_TX
+# -- Compiling module UART_TX_TB
+# 
+# Top level modules:
+# 	UART_TX_TB
+# End time: 16:36:28 on Aug 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+accs" work.UART_TX_TB 
+# Start time: 16:33:59 on Aug 15,2024
+# Loading work.UART_TX_TB
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           1 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           2 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Test Parity even is Succeded 0 
+#  Stop bit is Succeded 1 
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           1 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           2 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Stop bit is Succeded 1 
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           1 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           2 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Test Parity odd is Succeded 1 
+#  Stop bit is Succeded 1 
+# ** Note: $stop    : UART_TX_TB.v(76)
+#    Time: 629878 ns  Iteration: 0  Instance: /UART_TX_TB
+# Break in Module UART_TX_TB at UART_TX_TB.v line 76
+quit -sim
+# End time: 17:36:27 on Aug 15,2024, Elapsed time: 1:02:28
+# Errors: 4, Warnings: 4
+project open {C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/FINAL_SYSYEM}
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project FINAL_SYSYEM
+# Compile of ALU.v was successful.
+# Compile of CLK_GATE.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_MEM.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TB.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of CLKDIV_MUX.v was successful.
+# Compile of DATA_SYNC.v was successful.
+# Compile of PULSE_GEN.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RST_SYNC.v was successful.
+# Compile of SYS_CTRL.v was successful.
+# Compile of data_sampling.v was successful.
+# Compile of deserializer.v was successful.
+# Compile of edge_bit_counter.v was successful.
+# Compile of FSM_RX.v was successful.
+# Compile of parity_check.v was successful.
+# Compile of start_check.v was successful.
+# Compile of stop_check.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART.v was successful.
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of Sys_Ctrl.sv was successful.
+# 32 compiles, 0 failed with no errors.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 17:36:55 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading sv_std.std
+# Loading work.Sys_Ctrl
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/*
+add wave -position insertpoint sim:/SYS_TOP_TB/LD_FRAME/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_WR_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_RD_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WNOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U_UART_RST_SYNC/*
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DUT/U0_ref_sync/unsync_bus \
+sim:/SYS_TOP_TB/DUT/U0_ref_sync/bus_enable \
+sim:/SYS_TOP_TB/DUT/U0_ref_sync/sync_bus \
+sim:/SYS_TOP_TB/DUT/U0_ref_sync/enable_pulse_d \
+sim:/SYS_TOP_TB/DUT/U0_ref_sync/sync_reg
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DUT/U0_SYS_CTRL/RX_P_DATA \
+sim:/SYS_TOP_TB/DUT/U0_SYS_CTRL/RX_D_VLD
+# Compile of SYS_TOP.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP_TB.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_UART/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/U0_ref_sync/unsync_bus'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/U0_ref_sync/bus_enable'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/U0_ref_sync/sync_bus'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/U0_ref_sync/enable_pulse_d'. 
+quit -sim
+# End time: 18:06:27 on Aug 15,2024, Elapsed time: 0:29:32
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of CLK_GATE.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_MEM.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TB.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of CLKDIV_MUX.v was successful.
+# Compile of DATA_SYNC.v was successful.
+# Compile of PULSE_GEN.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RST_SYNC.v was successful.
+# Compile of SYS_CTRL.v was successful.
+# Compile of data_sampling.v was successful.
+# Compile of deserializer.v was successful.
+# Compile of edge_bit_counter.v was successful.
+# Compile of FSM_RX.v was successful.
+# Compile of parity_check.v was successful.
+# Compile of start_check.v was successful.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 18:06:41 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading sv_std.std
+# Loading work.Sys_Ctrl
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+# Compile of stop_check.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART.v was successful.
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of Sys_Ctrl.sv was successful.
+# 32 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DATA_WIDTH \
+sim:/SYS_TOP_TB/ADDR \
+sim:/SYS_TOP_TB/UART_CLK_PERIOD \
+sim:/SYS_TOP_TB/REF_CLK_PERIOD \
+sim:/SYS_TOP_TB/WR_CMD \
+sim:/SYS_TOP_TB/RD_CMD \
+sim:/SYS_TOP_TB/ALU_WOP_CMD \
+sim:/SYS_TOP_TB/ALU_WNOP_CMD \
+sim:/SYS_TOP_TB/RST_N \
+sim:/SYS_TOP_TB/UART_CLK \
+sim:/SYS_TOP_TB/REF_CLK \
+sim:/SYS_TOP_TB/UART_RX_IN \
+sim:/SYS_TOP_TB/UART_TX_OUT \
+sim:/SYS_TOP_TB/par_err \
+sim:/SYS_TOP_TB/stp_err
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_UART/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/*
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/unsync_bus \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/bus_enable \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/sync_bus \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/enable_pulse_d \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/sync_reg
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_UART/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/i_ref_clk \
+sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/i_rst \
+sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/i_clk_en \
+sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/i_div_ratio \
+sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/o_div_clk
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.Sys_Ctrl
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP
+# Loading work.SYS_CTRL
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP_TB.v failed with 7 errors.
+# Compile of SYS_TOP_TB.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break key hit
+# Break in Module DATA_SYNC at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/DATA_SYNC/DATA_SYNC.v line 40
+quit -sim
+# End time: 18:56:59 on Aug 15,2024, Elapsed time: 0:50:18
+# Errors: 0, Warnings: 1
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of SYS_CTRL.v was successful.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 18:57:25 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_WR_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_RD_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WNOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U_UART_RST_SYNC/*
+add wave -position insertpoint  \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/unsync_bus \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/bus_enable \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/sync_bus \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/enable_pulse_d \
+sim:/SYS_TOP_TB/DUT/U_ref_sync/sync_reg
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_UART/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP_TB.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/URX_ClkDiv/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/URX_ClkDiv/*
+run -all
+# Break key hit
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 61
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+quit -sim
+# End time: 19:22:10 on Aug 15,2024, Elapsed time: 0:24:45
+# Errors: 0, Warnings: 1
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 19:22:35 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/URX_ClkDiv/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/UTX_ClkDiv/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+force -freeze sim:/SYS_TOP_TB/DUT/URX_ClkDiv/is_one 1 0
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+force -freeze sim:/SYS_TOP_TB/DUT/URX_ClkDiv/is_one 0 0
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP.v failed with 2 errors.
+# Compile of ClkDiv.v failed with 1 errors.
+# Compile of ClkDiv.v was successful.
+# Compile of SYS_TOP.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP
+# Loading work.ClkDiv
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/URX_ClkDiv/is_one'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/SYS_TOP_TB/DUT/UTX_ClkDiv/is_one'. 
+quit -sim
+# End time: 19:38:28 on Aug 15,2024, Elapsed time: 0:15:53
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of CLK_GATE.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_MEM.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TB.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of CLKDIV_MUX.v was successful.
+# Compile of DATA_SYNC.v was successful.
+# Compile of PULSE_GEN.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RST_SYNC.v was successful.
+# Compile of SYS_CTRL.v was successful.
+# Compile of data_sampling.v was successful.
+# Compile of deserializer.v was successful.
+# Compile of edge_bit_counter.v was successful.
+# Compile of FSM_RX.v was successful.
+# Compile of parity_check.v was successful.
+# Compile of start_check.v was successful.
+# Compile of stop_check.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART.v was successful.
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of Sys_Ctrl.sv was successful.
+# 32 compiles, 0 failed with no errors.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 19:38:48 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of Register_File.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of SYS_TOP.v was successful.
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP
+# Loading work.ClkDiv
+# Loading work.Register_File
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+add wave -position insertpoint sim:/SYS_TOP_TB/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLK_GATE/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_ALU/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_WR_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_RD_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WNOP_CMD/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1047701382 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP_TB.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+quit -sim
+# End time: 21:27:06 on Aug 15,2024, Elapsed time: 1:48:18
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of CLK_GATE.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_MEM.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TB.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of CLKDIV_MUX.v was successful.
+# Compile of DATA_SYNC.v was successful.
+# Compile of PULSE_GEN.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RST_SYNC.v was successful.
+# Compile of SYS_CTRL.v was successful.
+# Compile of data_sampling.v was successful.
+# Compile of deserializer.v was successful.
+# Compile of edge_bit_counter.v was successful.
+# Compile of FSM_RX.v was successful.
+# Compile of parity_check.v was successful.
+# Compile of start_check.v was successful.
+# Compile of stop_check.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART.v was successful.
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of Sys_Ctrl.sv was successful.
+# 32 compiles, 0 failed with no errors.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 21:27:25 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/*
+run -all
+# Write Operation is failed with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 21:31:15 on Aug 15,2024, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 2
+# Compile of SYS_TOP_TB.v failed with 2 errors.
+# Compile of SYS_TOP_TB.v failed with 3 errors.
+# Compile of SYS_TOP_TB.v failed with 5 errors.
+# Compile of SYS_TOP_TB.v was successful.
+vsim -voptargs=+accs work.SYS_TOP_TB
+# vsim -voptargs="+accs" work.SYS_TOP_TB 
+# Start time: 21:36:37 on Aug 15,2024
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+add wave -position insertpoint sim:/SYS_TOP_TB/*
+run -all
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(56)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 56
+# Compile of SYS_TOP_TB.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Write Operation is failed with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# Break key hit
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 64
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_WR_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_RD_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/SEND_ALU_WNOP_CMD/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Write Operation is failed with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# Break key hit
+# Break in Module DATA_SYNC at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/DATA_SYNC/DATA_SYNC.v line 25
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/URX_ClkDiv/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_CLKDIV_MUX/*
+add wave -position insertpoint sim:/SYS_TOP_TB/DUT/U0_SYS_CTRL/*
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Write Operation is failed with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(59)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 59
+# Compile of SYS_CTRL.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_CTRL
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Write Operation is failed with configurations PARITY_ENABLE=1 PARITY_TYPE=0  PRESCALE=16  
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v(59)
+#    Time: 1046887578 ps  Iteration: 0  Instance: /SYS_TOP_TB
+# Break in Module SYS_TOP_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP_TB.v line 59
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of ALU.v was successful.
+# Compile of CLK_GATE.v was successful.
+# Compile of DF_SYNC.v was successful.
+# Compile of FIFO_MEM.v was successful.
+# Compile of FIFO_RD.v was successful.
+# Compile of FIFO_TB.v was successful.
+# Compile of FIFO_TOP.v was successful.
+# Compile of FIFO_WR.v was successful.
+# Compile of ClkDiv.v was successful.
+# Compile of CLKDIV_MUX.v was successful.
+# Compile of DATA_SYNC.v was successful.
+# Compile of PULSE_GEN.v was successful.
+# Compile of Register_File.v failed with 1 errors.
+# Compile of RST_SYNC.v was successful.
+# Compile of SYS_CTRL.v was successful.
+# Compile of data_sampling.v was successful.
+# Compile of deserializer.v was successful.
+# Compile of edge_bit_counter.v was successful.
+# Compile of FSM_RX.v was successful.
+# Compile of parity_check.v was successful.
+# Compile of start_check.v was successful.
+# Compile of stop_check.v was successful.
+# Compile of UART_RX.v was successful.
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART.v was successful.
+# Compile of SYS_TOP.v was successful.
+# Compile of SYS_TOP_TB.v was successful.
+# Compile of Sys_Ctrl.sv was successful.
+# 32 compiles, 1 failed with 1 error.
+# Compile of SYS_CTRL.v was successful.
+# Compile of Register_File.v was successful.
+restart -f
+# Closing VCD file "SYSTEM.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SYS_TOP_TB
+# Loading work.SYS_TOP
+# Loading work.RST_SYNC
+# Loading work.DATA_SYNC
+# Loading work.FIFO_TOP
+# Loading work.FIFO_MEM
+# Loading work.DF_SYNC
+# Loading work.FIFO_WR
+# Loading work.FIFO_RD
+# Loading work.PULSE_GEN
+# Loading work.ClkDiv
+# Loading work.CLKDIV_MUX
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.parity_check
+# Loading work.start_check
+# Loading work.stop_check
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+# Loading work.SYS_CTRL
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.CLK_GATE
+# ** Error (suppressible): (vsim-3584) C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP.v(113): Module parameter 'ratio_width' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /SYS_TOP_TB/DUT File: C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/SYS_TOP/SYS_TOP.v
+# Compile of SYS_TOP.v was successful.
+restart -f
+# No Design Loaded!
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# End time: 22:32:15 on Aug 15,2024, Elapsed time: 0:55:38
+# Errors: 1, Warnings: 2

@@ -1,0 +1,15 @@
+{F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door TB.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Auto_Door_TB
+
+Top level modules:
+	Auto_Door_TB
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Automatic Door/Automatic Door.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Auto_Door
+
+Top level modules:
+	Auto_Door
+
+} {} {}}

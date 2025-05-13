@@ -1,0 +1,131 @@
+`timescale 1ns/1ps
+
+module Auto_Door_TB();
+
+  reg UP_Max_tb;
+  reg DN_Max_tb;
+  reg Activate_tb;
+  reg CLK_tb;
+  reg RST_tb;
+  
+  wire UP_M_tb;
+  wire DN_M_tb;
+
+parameter CLK_PERIOD = 20;
+
+always #(CLK_PERIOD/2) CLK_tb = ~CLK_tb;
+
+Auto_Door DUT(
+  .UP_Max(UP_Max_tb),
+  .DN_Max(DN_Max_tb),
+  .Activate(Activate_tb),
+  .CLK(CLK_tb),
+  .RST(RST_tb),
+  .UP_M(UP_M_tb),
+  .DN_M(DN_M_tb)
+ );
+ 
+initial 
+  begin
+    $dumpfile("Auto_Door.vcd");
+	$dumpvars;
+	
+	
+	initialize();	
+	Reset();
+	
+	Activate_tb = 1'b1; // Test Open Door. 
+    #CLK_PERIOD
+	Test(Activate_tb,UP_Max_tb,DN_Max_tb);
+	
+	#(2*CLK_PERIOD)
+	UP_Max_tb   = 1'b1;
+	DN_Max_tb   = 1'b0;
+	Activate_tb = 1'b0; // Test keep Door Open.
+	Test(Activate_tb,UP_Max_tb,DN_Max_tb);
+	
+	#CLK_PERIOD
+	Activate_tb = 1'b1; // Test Close Door.
+	//UP_Max_tb   = 1'b1;
+	//DN_Max_tb   = 1'b0;
+	#(CLK_PERIOD)
+	Test(Activate_tb,UP_Max_tb,DN_Max_tb);
+	
+	#(2*CLK_PERIOD)
+	Activate_tb = 1'b0; // Test keep Door Closed.
+	UP_Max_tb   = 1'b0;
+	DN_Max_tb   = 1'b1;
+	Test(Activate_tb,UP_Max_tb,DN_Max_tb);
+	
+	
+   #100
+   $stop;
+  end
+  
+task initialize;
+  begin
+    Activate_tb = 1'b0;
+	CLK_tb      = 1'b0;
+	RST_tb      = 1'b0;
+	UP_Max_tb   = 1'b0;
+	DN_Max_tb   = 1'b1;
+  end
+endtask 
+  
+task Reset;
+  begin
+    RST_tb =  'b1;
+    #CLK_PERIOD
+    RST_tb  = 'b0;
+    #CLK_PERIOD
+    RST_tb  = 'b1;
+  end
+endtask
+
+task Test;
+ input active;
+ input sensor_up;
+ input sensor_dn;
+ 
+ begin
+    
+	  
+	if(active && sensor_dn )
+	  begin
+	    if(UP_M_tb==1'b1)
+		 $display("Test Open Door is Succeded and UP_M = %b ",UP_M_tb);
+		else
+		 $display("Test Open Door is Failed and UP_M = %b ",UP_M_tb);
+	  end
+	else if(active && sensor_up )
+	  begin
+	    if(DN_M_tb==1'b1)
+		 $display("Test Close Door is Succeded and DN_M = %b ",DN_M_tb);
+		else
+		 $display("Test Close Door is Failed and DN_M = %b ",DN_M_tb);
+	  end
+	  
+	else
+	  begin
+	      if(sensor_up)
+		    begin
+		      if(UP_M_tb==1'b1)
+		       $display("Test keep Door Open is Succeded and UP_M = %b ",UP_M_tb);
+		      else
+		       $display("Test keep Door Open is Failed and UP_M = %b ",UP_M_tb);
+		    end
+			
+		  else 
+		    begin
+		      if(DN_M_tb==1'b1)
+		       $display("Test keep Door Closed is Succeded and DN_M = %b ",DN_M_tb);
+		      else
+		       $display("Test keep Door Closed is Failed and DN_M = %b ",DN_M_tb);
+		    end
+		  
+	  end
+ end
+endtask
+  
+  
+endmodule
