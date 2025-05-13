@@ -1,0 +1,43 @@
+{F:/MODELSIM/Verilog Projects/Champions/baudGen.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/baudGen.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baud_gen
+
+Top level modules:
+	baud_gen
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Champions/piso.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/piso.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module piso
+
+Top level modules:
+	piso
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Champions/uart_tx.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/uart_tx.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Champions/frame_gen.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/frame_gen.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module frame_gen
+
+Top level modules:
+	frame_gen
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module uart_tx_tb
+
+Top level modules:
+	uart_tx_tb
+
+} {} {}} {F:/MODELSIM/Verilog Projects/Champions/parity.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/parity.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module parity
+
+Top level modules:
+	parity
+
+} {} {}}

@@ -1,0 +1,216 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aa\Downloads
+vbaud_gen
+Z1 !s100 hYUFV^L^Bo2=E4gW5fROV3
+Z2 I8M`^10dLFXcDRhLT;BcGW2
+Z3 V=6UY1bRVjHVDL7`@A^Pd33
+Z4 dF:\MODELSIM\Verilog Projects\Champions
+Z5 w1720210930
+Z6 8F:/MODELSIM/Verilog Projects/Champions/baudGen.v
+Z7 FF:/MODELSIM/Verilog Projects/Champions/baudGen.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/baudGen.v|
+Z10 o-work work -O0
+Z11 !s108 1720211621.758000
+Z12 !s107 F:/MODELSIM/Verilog Projects/Champions/baudGen.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbaudGen
+Z13 !s100 8f<SL2EAZHYPgGa`W6DMe1
+Z14 IlC4zn`Bz=JlXP5T_@YllG1
+Z15 V87c4FRD:oakRB^Fl3:dEg2
+R4
+R5
+Z16 8C:/Users/aa/Downloads/Baud_Generator.v
+Z17 FC:/Users/aa/Downloads/Baud_Generator.v
+L0 1
+R8
+r1
+31
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/aa/Downloads/Baud_Generator.v|
+R10
+Z19 nbaud@gen
+Z20 !s108 1720210936.941000
+Z21 !s107 C:/Users/aa/Downloads/Baud_Generator.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbaudGen_tb
+Z22 !s100 >XkB>Lhc@lM16n@M^58>F0
+Z23 I?BdSCKV[`nTeJ0P@8?<EO3
+Z24 V50NTz7Do9F1QhT1Z_c37K3
+R4
+Z25 w1720111853
+Z26 8F:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v
+Z27 FF:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v
+L0 3
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v|
+R10
+Z29 nbaud@gen_tb
+Z30 !s108 1720210936.764000
+Z31 !s107 F:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vframe_gen
+Z32 !s100 1I^;@Eczjkg@Dh<NeD@Kk2
+Z33 IO^9PPHA2_MfAUk@cPV4482
+Z34 VWOdnzm[^4L<=EenTXEVI@1
+R4
+Z35 w1720123536
+Z36 8F:/MODELSIM/Verilog Projects/Champions/frame_gen.v
+Z37 FF:/MODELSIM/Verilog Projects/Champions/frame_gen.v
+L0 1
+R8
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/frame_gen.v|
+R10
+Z39 !s108 1720211621.889000
+Z40 !s107 F:/MODELSIM/Verilog Projects/Champions/frame_gen.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vframe_gen_tb
+Z41 !s100 cR;cJ^hknDd5F66c8A3Q61
+Z42 I:E8cW1VlnAbR32mG4eOE93
+Z43 Va>KhCRVmnhz8C2A8[G;^@1
+R4
+R25
+Z44 8F:/MODELSIM/Verilog Projects/Champions/frame_gen_tb.v
+Z45 FF:/MODELSIM/Verilog Projects/Champions/frame_gen_tb.v
+L0 3
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/frame_gen_tb.v|
+R10
+Z47 !s108 1720121181.817000
+Z48 !s107 F:/MODELSIM/Verilog Projects/Champions/frame_gen_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparity
+Z49 !s100 [iNPN2@hn@K_OTE0Bzobo3
+Z50 ISf?BP2CcoSoel_eEMJ]]62
+Z51 V`zIzZLkSDcSRVhT5FjDbN1
+R4
+Z52 w1720111836
+Z53 8F:/MODELSIM/Verilog Projects/Champions/parity.v
+Z54 FF:/MODELSIM/Verilog Projects/Champions/parity.v
+L0 1
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/parity.v|
+R10
+Z56 !s108 1720211622.068000
+Z57 !s107 F:/MODELSIM/Verilog Projects/Champions/parity.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparity_tb
+Z58 I>i<@^d>lBZ9hFj;z`z_ZI1
+Z59 VYCZoYXU>5RDD=2^P^maZG1
+R4
+Z60 w1720111851
+Z61 8F:/MODELSIM/Verilog Projects/Champions/parity_tb.v
+Z62 FF:/MODELSIM/Verilog Projects/Champions/parity_tb.v
+L0 3
+R8
+r1
+31
+R10
+Z63 !s100 3cUCU:K5ml_4[`L]G7D[d2
+Z64 !s108 1720112597.578000
+Z65 !s107 F:/MODELSIM/Verilog Projects/Champions/parity_tb.v|
+Z66 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/parity_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpiso
+Z67 !s100 e0?@>_0i`gfm[1=Fi46hf2
+Z68 I7878[008lO?[DZ@5`7XRD1
+Z69 Vj__Z=D1DOn>9[lF`6DE?A3
+R4
+R5
+Z70 8F:/MODELSIM/Verilog Projects/Champions/piso.v
+Z71 FF:/MODELSIM/Verilog Projects/Champions/piso.v
+L0 1
+R8
+r1
+31
+Z72 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/piso.v|
+R10
+Z73 !s108 1720211622.273000
+Z74 !s107 F:/MODELSIM/Verilog Projects/Champions/piso.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpiso_tb
+Z75 I@;jTPMHT1kYi;mzG?KAMH3
+Z76 Vf3_6O<:k1oE[;noGzUcX^3
+R4
+R60
+Z77 8F:/MODELSIM/Verilog Projects/Champions/piso_tb.v
+Z78 FF:/MODELSIM/Verilog Projects/Champions/piso_tb.v
+L0 3
+R8
+r1
+31
+R10
+Z79 !s100 YOhzd_dz6KhXKO?dW]LPU0
+Z80 !s108 1720112597.953000
+Z81 !s107 F:/MODELSIM/Verilog Projects/Champions/piso_tb.v|
+Z82 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/piso_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vuart_tx
+Z83 !s100 HfXEM>6NX7boaf1R8DiFZ0
+Z84 I9<N=5ad^z3>`1ObeUHLOE0
+Z85 Vg3QogeGD@hg^Jj``d1TGJ0
+R4
+Z86 w1720207286
+Z87 8F:/MODELSIM/Verilog Projects/Champions/uart_tx.v
+Z88 FF:/MODELSIM/Verilog Projects/Champions/uart_tx.v
+L0 1
+R8
+r1
+31
+Z89 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/uart_tx.v|
+R10
+!i10b 1
+!s85 0
+Z90 !s108 1720211622.451000
+Z91 !s107 F:/MODELSIM/Verilog Projects/Champions/uart_tx.v|
+!s101 -O0
+vuart_tx_tb
+!i10b 1
+Z92 !s100 9G4Rz5He77VnETV?e>F^V0
+Z93 I16haMHI;2238GgS>AIE801
+Z94 V^GOQ@RT<gh1ENehT@lDmY3
+R4
+Z95 w1720207017
+Z96 8F:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v
+Z97 FF:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1720211622.611000
+!s107 F:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v|
+Z98 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/Champions/uart_tx_tb.v|
+!s101 -O0
+R10

@@ -1,0 +1,15 @@
+{F:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v} {1 {vlog -work work {F:/MODELSIM/Verilog Projects/Champions/baudGen_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baudGen_tb
+
+Top level modules:
+	baudGen_tb
+
+} {} {}} C:/Users/aa/Downloads/Baud_Generator.v {1 {vlog -work work C:/Users/aa/Downloads/Baud_Generator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baudGen
+
+Top level modules:
+	baudGen
+
+} {} {}}
