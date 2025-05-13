@@ -1,0 +1,50 @@
+{C:/intelFPGA/Verilog Projects/Basic/ALU/ALU_Top.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/ALU_Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Top
+
+Top level modules:
+	ALU_Top
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/ALU_Top_TB.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/ALU_Top_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Top_tb
+
+Top level modules:
+	ALU_Top_tb
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/Arithmetic_unit.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/Arithmetic_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ARITHMETIC_UNIT
+
+Top level modules:
+	ARITHMETIC_UNIT
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/Logic_unit.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/Logic_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LOGIC_UNIT
+
+Top level modules:
+	LOGIC_UNIT
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/Shift_unit.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/Shift_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SHIFT_UNIT
+
+Top level modules:
+	SHIFT_UNIT
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/Decoder.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DECODER
+
+Top level modules:
+	DECODER
+
+} {} {}} {C:/intelFPGA/Verilog Projects/Basic/ALU/CMP_unit.v} {1 {vlog -work work -stats=none {C:/intelFPGA/Verilog Projects/Basic/ALU/CMP_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CMP_UNIT
+
+Top level modules:
+	CMP_UNIT
+
+} {} {}}
