@@ -1,0 +1,273 @@
+$date
+	Mon Jul 22 13:13:09 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module ClkDiv_tb $end
+$var parameter 32 ! ratio_width_tb $end
+$var reg 1 " i_ref_clk_tb $end
+$var reg 1 # i_rst_tb $end
+$var reg 1 $ i_clk_en_tb $end
+$var reg 8 % i_div_ratio_tb [7:0] $end
+$var wire 1 & o_div_clk_tb $end
+
+$scope module DUT $end
+$var parameter 32 ' ratio_width $end
+$var wire 1 ( i_ref_clk $end
+$var wire 1 ) i_rst $end
+$var wire 1 * i_clk_en $end
+$var wire 1 + i_div_ratio [7] $end
+$var wire 1 , i_div_ratio [6] $end
+$var wire 1 - i_div_ratio [5] $end
+$var wire 1 . i_div_ratio [4] $end
+$var wire 1 / i_div_ratio [3] $end
+$var wire 1 0 i_div_ratio [2] $end
+$var wire 1 1 i_div_ratio [1] $end
+$var wire 1 2 i_div_ratio [0] $end
+$var reg 1 3 o_div_clk $end
+$var wire 1 4 edge_flip_half [6] $end
+$var wire 1 5 edge_flip_half [5] $end
+$var wire 1 6 edge_flip_half [4] $end
+$var wire 1 7 edge_flip_half [3] $end
+$var wire 1 8 edge_flip_half [2] $end
+$var wire 1 9 edge_flip_half [1] $end
+$var wire 1 : edge_flip_half [0] $end
+$var wire 1 ; edge_flip_full [6] $end
+$var wire 1 < edge_flip_full [5] $end
+$var wire 1 = edge_flip_full [4] $end
+$var wire 1 > edge_flip_full [3] $end
+$var wire 1 ? edge_flip_full [2] $end
+$var wire 1 @ edge_flip_full [1] $end
+$var wire 1 A edge_flip_full [0] $end
+$var reg 7 B count [6:0] $end
+$var reg 1 C div_clk $end
+$var reg 1 D odd_edge_tog $end
+$var wire 1 E is_one $end
+$var wire 1 F is_zero $end
+$var wire 1 G clk_en $end
+$var wire 1 H is_odd $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+1#
+1$
+b111 %
+x3
+bx B
+xC
+xD
+b1000 !
+b1000 '
+x&
+0:
+19
+08
+07
+06
+05
+04
+1A
+1@
+0?
+0>
+0=
+0<
+0;
+0E
+0F
+1G
+1H
+12
+11
+10
+0/
+0.
+0-
+0,
+0+
+1*
+1)
+0(
+$end
+#4
+0#
+0)
+b0 B
+0C
+1D
+03
+0&
+#5
+1"
+1(
+#8
+1#
+1)
+#10
+0"
+0(
+#15
+1"
+1(
+b1 B
+#20
+0"
+0(
+#25
+1"
+1(
+b10 B
+#30
+0"
+0(
+#35
+1"
+1(
+b0 B
+1C
+0D
+#40
+0"
+0(
+#45
+1"
+1(
+13
+1&
+b1 B
+#50
+0"
+0(
+#55
+1"
+1(
+b10 B
+#60
+0"
+0(
+#65
+1"
+1(
+b11 B
+#70
+0"
+0(
+#75
+1"
+1(
+b0 B
+0C
+1D
+#80
+0"
+0(
+#85
+1"
+1(
+03
+0&
+b1 B
+#90
+0"
+0(
+#95
+1"
+1(
+b10 B
+#100
+0"
+0(
+#105
+1"
+1(
+b0 B
+1C
+0D
+#110
+0"
+0(
+#115
+1"
+1(
+13
+1&
+b1 B
+#120
+0"
+0(
+#125
+1"
+1(
+b10 B
+#130
+0"
+0(
+#135
+1"
+1(
+b11 B
+#140
+0"
+0(
+#145
+1"
+1(
+b0 B
+0C
+1D
+#150
+0"
+0(
+#155
+1"
+1(
+03
+0&
+b1 B
+#160
+0"
+0(
+#165
+1"
+1(
+b10 B
+#170
+0"
+0(
+#175
+1"
+1(
+b0 B
+1C
+0D
+#180
+0"
+0(
+#185
+1"
+1(
+13
+1&
+b1 B
+#190
+0"
+0(
+#195
+1"
+1(
+b10 B
+#200
+0"
+0(
+#205
+1"
+1(
+b11 B

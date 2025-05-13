@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/Verilog Projects/UART_RX
+vClkDiv
+Z0 !s110 1721643173
+!i10b 1
+!s100 3ooL[l[=6OjzI]=d:i6lJ1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbWEM?VmF3SfHi87hXMZJ@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/intelFPGA/Verilog Projects/clk_div
+w1721642601
+8ClkDiv.v
+FClkDiv.v
+!i122 0
+L0 2 67
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1721643172.000000
+Z6 !s107 ClkDiv_tb.v|ClkDiv.v|
+Z7 !s90 -reportprogress|300|-f|sourcfile.txt|
+!i113 1
+Z8 tCvgOpt 0
+n@clk@div
+vClkDiv_tb
+R0
+!i10b 1
+!s100 c6YG5a@`76:31l]^NK1Qb1
+R1
+ICPad]mZ9ESF7n5oPeN`hP3
+R2
+R3
+w1721642760
+8ClkDiv_tb.v
+FClkDiv_tb.v
+!i122 0
+L0 2 38
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@clk@div_tb
+vlint
+!s110 1721666490
+!i10b 1
+!s100 Z;ZmO54g>ZRGNd=Qb<iJa2
+R1
+Ie]dk>AHZ=k5h6I>iAEGo81
+R2
+R3
+w1721652282
+8C:/Users/4G/Downloads/lint.v
+FC:/Users/4G/Downloads/lint.v
+!i122 1
+L0 2 109
+R4
+r1
+!s85 0
+31
+!s108 1721666490.000000
+!s107 C:/Users/4G/Downloads/lint.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/4G/Downloads/lint.v|
+!i113 1
+o-work work
+R8

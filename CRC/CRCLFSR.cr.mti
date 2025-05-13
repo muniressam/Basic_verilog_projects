@@ -1,0 +1,8 @@
+{F:/MODELSIM/Verilog Projects/CRC/CRC_tb.v} {1 {vlog -work work {F:\MODELSIM\Verilog Projects\CRC\CRC_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module crc_tb
+
+Top level modules:
+	crc_tb
+
+} {} {}}

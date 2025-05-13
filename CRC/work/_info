@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\MODELSIM
+vcrc
+Z1 Ib>o7An1Jne<X:4LJ1ZXbV3
+Z2 Vc>JRl8TZni^WTV3A=2MdV3
+Z3 dF:\MODELSIM\Verilog Projects\CRC
+Z4 w1709588273
+Z5 8C:/Users/aa/Downloads/crc.v
+Z6 FC:/Users/aa/Downloads/crc.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 3WJ?<;SI[^jXUeBUaAWoI2
+Z10 !s108 1709659485.617000
+Z11 !s107 C:/Users/aa/Downloads/crc.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/aa/Downloads/crc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCRC
+Z13 IKJ08k92h]QKW^YIfD@A8z3
+Z14 VZfa6UgVLV>Kz6@XTiPWjh1
+R3
+Z15 w1709664574
+Z16 8F:/MODELSIM/Verilog Projects/CRC/CRC.v
+Z17 FF:/MODELSIM/Verilog Projects/CRC/CRC.v
+L0 1
+R7
+r1
+31
+Z18 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/CRC/CRC.v|
+R8
+Z19 n@c@r@c
+!i10b 1
+Z20 !s100 GVJB=6V2;fFO0RUEGMicj1
+!s85 0
+Z21 !s108 1709664611.140000
+Z22 !s107 F:/MODELSIM/Verilog Projects/CRC/CRC.v|
+!s101 -O0
+vCRC_tb
+Z23 !s100 ;2SmcCVHaRlmkV30FEXW`2
+Z24 IL0P43_>P9M`aMzXI_hKm02
+Z25 VVlOUUlfN6C5IPHJ_3KC2U1
+R3
+Z26 w1709592507
+Z27 8F:/MODELSIM/Verilog Projects/CRC/CRC_tb.v
+Z28 FF:/MODELSIM/Verilog Projects/CRC/CRC_tb.v
+L0 2
+R7
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|F:/MODELSIM/Verilog Projects/CRC/CRC_tb.v|
+R8
+Z30 n@c@r@c_tb
+Z31 !s108 1709659402.732000
+Z32 !s107 F:/MODELSIM/Verilog Projects/CRC/CRC_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcrc_tb
+!i10b 1
+!s100 C^9>QHHHW^H@Ibz3dkl852
+I]JV;l@=V9mSFI^XS^[cbU3
+Z33 V^BmL7g<GEb;89NYR@?IQo0
+R3
+Z34 w1709664378
+8F:\MODELSIM\Verilog Projects\CRC\CRC_tb.v
+FF:\MODELSIM\Verilog Projects\CRC\CRC_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1709770354.029000
+!s107 F:\MODELSIM\Verilog Projects\CRC\CRC_tb.v|
+!s90 -reportprogress|300|-work|work|F:\MODELSIM\Verilog Projects\CRC\CRC_tb.v|
+!s101 -O0
+R8
+vLFSR_CRC
+Z35 I=[EzR6aAecnlMCDWczcQb0
+Z36 Vk[D1fU1UR@8XlU]WQ75H[0
+R3
+Z37 w1709659290
+Z38 8C:/Users/aa/Desktop/LFSR_CRC.v
+Z39 FC:/Users/aa/Desktop/LFSR_CRC.v
+L0 1
+R7
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/aa/Desktop/LFSR_CRC.v|
+R8
+Z41 n@l@f@s@r_@c@r@c
+Z42 !s100 4f6W7nPPE5d8E`LJbI8JL1
+Z43 !s108 1709659301.496000
+Z44 !s107 C:/Users/aa/Desktop/LFSR_CRC.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vLFSR_CRC_tb
+Z45 ID;mGd;>Va]AYVZGAAhCam0
+Z46 VcELgiTc=JZYiKFXb>lifT0
+R3
+Z47 w1709659056
+Z48 8C:/Users/aa/Desktop/LFSR_CRC_tb.v
+Z49 FC:/Users/aa/Desktop/LFSR_CRC_tb.v
+L0 2
+R7
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/aa/Desktop/LFSR_CRC_tb.v|
+R8
+Z51 n@l@f@s@r_@c@r@c_tb
+Z52 !s100 b<6Jej;C3Rg;PkE[>8KiM2
+Z53 !s108 1709659304.307000
+Z54 !s107 C:/Users/aa/Desktop/LFSR_CRC_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
