@@ -1,0 +1,55 @@
+# Compile of FSM.v was successful with warnings.
+# Compile of MUX.v was successful.
+# Compile of Parity_Calc.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of UART_TX.v was successful.
+# Compile of UART_TX_TB.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.UART_TX_TB
+# vsim -gui work.UART_TX_TB 
+# Start time: 15:49:09 on Aug 16,2024
+# Loading work.UART_TX_TB
+# Loading work.UART_TX
+# Loading work.Serializer
+# Loading work.FSM
+# Loading work.Parity_Calc
+# Loading work.MUX
+add wave -position insertpoint sim:/UART_TX_TB/DUT/*
+run -all
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           1 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           2 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Test Parity even is Succeded 0 
+#  Stop bit is Succeded 1 
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           1 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           2 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Stop bit is Succeded 1 
+#  Start bit is Succeded 1 
+#  Transmate           0 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           1 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           2 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           3 bit is Succeded with OUT 0 and P_Data 0 
+#  Transmate           4 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           5 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           6 bit is Succeded with OUT 1 and P_Data 1 
+#  Transmate           7 bit is Succeded with OUT 1 and P_Data 1 
+#  Test Parity odd is Succeded 1 
+#  Stop bit is Succeded 1 
+# ** Note: $stop    : C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v(76)
+#    Time: 629878 ns  Iteration: 0  Instance: /UART_TX_TB
+# Break in Module UART_TX_TB at C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v line 76
+# End time: 16:03:33 on Aug 16,2024, Elapsed time: 0:14:24
+# Errors: 0, Warnings: 5

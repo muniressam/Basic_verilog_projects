@@ -1,0 +1,1018 @@
+$date
+	Fri Aug 16 15:49:23 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module UART_TX_TB $end
+$var parameter 32 ! P_Width_tb $end
+$var parameter 0 " CLK_PERIOD $end
+$var reg 8 # P_DATA_tb [7:0] $end
+$var reg 1 $ DATA_VALID_tb $end
+$var reg 1 % PAR_EN_tb $end
+$var reg 1 & PAR_TYP_tb $end
+$var reg 1 ' CLK_tb $end
+$var reg 1 ( RST_tb $end
+$var wire 1 ) TX_OUT_tb $end
+$var wire 1 * Busy_tb $end
+
+$scope task initialize $end
+$upscope $end
+
+$scope task Reset $end
+$upscope $end
+
+$scope task Start $end
+$var reg 1 + data_valid $end
+$upscope $end
+
+$scope task Data $end
+$var reg 8 , p_data [7:0] $end
+$var integer 32 - i $end
+$upscope $end
+
+$scope task Parity $end
+$var reg 1 . par_typ $end
+$var reg 1 / par_en $end
+$upscope $end
+
+$scope task Stop $end
+$upscope $end
+
+$scope module DUT $end
+$var parameter 32 0 width $end
+$var wire 1 1 P_DATA_TX [7] $end
+$var wire 1 2 P_DATA_TX [6] $end
+$var wire 1 3 P_DATA_TX [5] $end
+$var wire 1 4 P_DATA_TX [4] $end
+$var wire 1 5 P_DATA_TX [3] $end
+$var wire 1 6 P_DATA_TX [2] $end
+$var wire 1 7 P_DATA_TX [1] $end
+$var wire 1 8 P_DATA_TX [0] $end
+$var wire 1 9 DATA_VALID_TX $end
+$var wire 1 : PAR_EN $end
+$var wire 1 ; PAR_TYP $end
+$var wire 1 < CLK_TX $end
+$var wire 1 = RST_TX $end
+$var wire 1 ) TX_OUT $end
+$var wire 1 * Busy $end
+$var wire 1 > ser_done $end
+$var wire 1 ? ser_en $end
+$var wire 1 @ ser_data $end
+$var wire 1 A mux_sel [1] $end
+$var wire 1 B mux_sel [0] $end
+$var wire 1 C par_bit $end
+
+$scope module u_seralizer $end
+$var parameter 32 D P_Width $end
+$var wire 1 1 P_DATA [7] $end
+$var wire 1 2 P_DATA [6] $end
+$var wire 1 3 P_DATA [5] $end
+$var wire 1 4 P_DATA [4] $end
+$var wire 1 5 P_DATA [3] $end
+$var wire 1 6 P_DATA [2] $end
+$var wire 1 7 P_DATA [1] $end
+$var wire 1 8 P_DATA [0] $end
+$var wire 1 9 DATA_VALID $end
+$var wire 1 ? ser_en $end
+$var wire 1 * Busy $end
+$var wire 1 < CLK $end
+$var wire 1 = RST $end
+$var wire 1 > ser_done $end
+$var wire 1 @ ser_data $end
+$var reg 8 E Get_DATA [7:0] $end
+$var reg 3 F Counter [2:0] $end
+$upscope $end
+
+$scope module u_fsm $end
+$var parameter 3 G IDLE $end
+$var parameter 3 H START $end
+$var parameter 3 I DATA $end
+$var parameter 3 J PARTY $end
+$var parameter 3 K STOP $end
+$var wire 1 : PAR_EN $end
+$var wire 1 9 DATA_VALID $end
+$var wire 1 > ser_done $end
+$var wire 1 < CLK $end
+$var wire 1 = RST $end
+$var reg 1 L ser_en $end
+$var reg 2 M mux_sel [1:0] $end
+$var reg 1 N Busy $end
+$var reg 3 O current_state [2:0] $end
+$var reg 3 P next_state [2:0] $end
+$var reg 1 Q Busy_TX $end
+$upscope $end
+
+$scope module u_parity_cal $end
+$var parameter 32 R P_Width $end
+$var wire 1 1 P_DATA [7] $end
+$var wire 1 2 P_DATA [6] $end
+$var wire 1 3 P_DATA [5] $end
+$var wire 1 4 P_DATA [4] $end
+$var wire 1 5 P_DATA [3] $end
+$var wire 1 6 P_DATA [2] $end
+$var wire 1 7 P_DATA [1] $end
+$var wire 1 8 P_DATA [0] $end
+$var wire 1 9 DATA_VALID $end
+$var wire 1 ; PAR_TYP $end
+$var wire 1 : PAR_EN $end
+$var wire 1 < CLK $end
+$var wire 1 = RST $end
+$var wire 1 * Busy $end
+$var reg 1 S par_bit $end
+$var reg 8 T DATA [7:0] $end
+$upscope $end
+
+$scope module u_mux $end
+$var wire 1 A mux_sel [1] $end
+$var wire 1 B mux_sel [0] $end
+$var wire 1 U start_bit $end
+$var wire 1 V stop_bit $end
+$var wire 1 @ ser_data $end
+$var wire 1 C par_bit $end
+$var wire 1 < CLK $end
+$var wire 1 = RST $end
+$var reg 1 W TX_OUT $end
+$var reg 1 X MUX_OUT $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+0$
+0%
+0&
+0'
+1(
+bx E
+bx F
+xL
+bx M
+xN
+bx O
+b0 P
+xQ
+xS
+bx T
+xW
+xX
+x+
+bx ,
+x.
+x/
+b1000 !
+b1000 0
+b1000 D
+b0 G
+b1 H
+b10 I
+b11 J
+b100 K
+b1000 R
+r8.68055556 "
+bx -
+x)
+x*
+x>
+x?
+x@
+xB
+xA
+xC
+1=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+1V
+0U
+$end
+#4340
+1'
+1<
+b0 F
+b0 O
+0>
+0Q
+0L
+b0 M
+b11 M
+0?
+1B
+1A
+1X
+#8680
+0'
+0<
+#8681
+0(
+0=
+b0 E
+0N
+b0 T
+0S
+0W
+0*
+0)
+0@
+0C
+#13020
+1'
+1<
+#17360
+0'
+0<
+#17362
+1(
+1$
+b10100101 #
+1%
+1+
+18
+16
+13
+11
+1=
+19
+1:
+b1 P
+#21700
+1'
+1<
+b10100101 E
+b1 O
+b10100101 T
+1S
+1W
+1)
+1@
+1C
+b10 P
+b0 M
+1Q
+0B
+0A
+0X
+#26040
+0'
+0<
+#26043
+0$
+b10100101 ,
+09
+#30380
+1'
+1<
+b10 O
+1N
+0W
+1*
+0)
+0Q
+1Q
+1L
+b1 M
+1?
+1B
+1X
+#34720
+0'
+0<
+#34724
+b0 -
+#39060
+1'
+1<
+b1010010 E
+b1 F
+1W
+1)
+0@
+0X
+#43400
+0'
+0<
+#43405
+b1 -
+#47740
+1'
+1<
+b101001 E
+b10 F
+0W
+0)
+1@
+1X
+#52080
+0'
+0<
+#52086
+b10 -
+#56420
+1'
+1<
+b10100 E
+b11 F
+1W
+1)
+0@
+0X
+#60760
+0'
+0<
+#60767
+b11 -
+#65100
+1'
+1<
+b1010 E
+b100 F
+0W
+0)
+#69440
+0'
+0<
+#69448
+b100 -
+#73780
+1'
+1<
+b101 E
+b101 F
+1@
+1X
+#78120
+0'
+0<
+#78129
+b101 -
+#82460
+1'
+1<
+b10 E
+b110 F
+1W
+1)
+0@
+0X
+#86800
+0'
+0<
+#86810
+b110 -
+#91140
+1'
+1<
+b1 E
+b111 F
+0W
+0)
+1@
+1>
+b11 P
+0Q
+0L
+b0 M
+1Q
+1L
+b1 M
+0L
+1X
+0?
+#95480
+0'
+0<
+#95491
+b111 -
+#99820
+1'
+1<
+b0 F
+b11 O
+1W
+1)
+0>
+b100 P
+0Q
+b0 M
+1Q
+b10 M
+0B
+1A
+#104160
+0'
+0<
+#104172
+b1000 -
+0.
+1/
+#108500
+1'
+1<
+b100 O
+b0 P
+0Q
+b0 M
+1Q
+b11 M
+1B
+#112840
+0'
+0<
+#117180
+1'
+1<
+b0 O
+0Q
+b0 M
+b11 M
+#121520
+0'
+0<
+#125860
+1'
+1<
+0N
+0*
+#130200
+0'
+0<
+#134540
+1'
+1<
+#138880
+0'
+0<
+#143220
+1'
+1<
+#147560
+0'
+0<
+#151900
+1'
+1<
+#156240
+0'
+0<
+#160580
+1'
+1<
+#164920
+0'
+0<
+#169260
+1'
+1<
+#173600
+0'
+0<
+#177940
+1'
+1<
+#182280
+0'
+0<
+#186620
+1'
+1<
+#190960
+0'
+0<
+#195300
+1'
+1<
+#199640
+0'
+0<
+#203980
+1'
+1<
+#208320
+0'
+0<
+#212660
+1'
+1<
+#217000
+0'
+0<
+#221340
+1'
+1<
+#221534
+1$
+b11110100 #
+0%
+1&
+08
+14
+12
+1;
+19
+0:
+b1 P
+#225680
+0'
+0<
+#230020
+1'
+1<
+b11110100 E
+b1 O
+b11110100 T
+0@
+b10 P
+b0 M
+1Q
+0B
+0A
+0X
+#230215
+0$
+b11110100 ,
+09
+#234360
+0'
+0<
+#238700
+1'
+1<
+b10 O
+1N
+0W
+1*
+0)
+0Q
+1Q
+1L
+b1 M
+1?
+1B
+#238896
+b0 -
+#243040
+0'
+0<
+#247380
+1'
+1<
+b1111010 E
+b1 F
+#247577
+b1 -
+#251720
+0'
+0<
+#256060
+1'
+1<
+b111101 E
+b10 F
+1@
+1X
+#256258
+b10 -
+#260400
+0'
+0<
+#264740
+1'
+1<
+b11110 E
+b11 F
+1W
+1)
+0@
+0X
+#264939
+b11 -
+#269080
+0'
+0<
+#273420
+1'
+1<
+b1111 E
+b100 F
+0W
+0)
+1@
+1X
+#273620
+b100 -
+#277760
+0'
+0<
+#282100
+1'
+1<
+b111 E
+b101 F
+1W
+1)
+#282301
+b101 -
+#286440
+0'
+0<
+#290780
+1'
+1<
+b11 E
+b110 F
+#290982
+b110 -
+#295120
+0'
+0<
+#299460
+1'
+1<
+b1 E
+b111 F
+1>
+b100 P
+0Q
+0L
+b0 M
+1Q
+1L
+b1 M
+0L
+0?
+#299663
+b111 -
+#303800
+0'
+0<
+#308140
+1'
+1<
+b0 F
+b100 O
+0>
+b0 P
+0Q
+b0 M
+1Q
+b11 M
+1A
+#308344
+b1000 -
+1.
+0/
+#312480
+0'
+0<
+#316820
+1'
+1<
+b0 O
+0Q
+b0 M
+b11 M
+#321160
+0'
+0<
+#325500
+1'
+1<
+0N
+0*
+#329840
+0'
+0<
+#334180
+1'
+1<
+#338520
+0'
+0<
+#342860
+1'
+1<
+#347200
+0'
+0<
+#351540
+1'
+1<
+#355880
+0'
+0<
+#360220
+1'
+1<
+#364560
+0'
+0<
+#368900
+1'
+1<
+#373240
+0'
+0<
+#377580
+1'
+1<
+#381920
+0'
+0<
+#386260
+1'
+1<
+#390600
+0'
+0<
+#394940
+1'
+1<
+#399280
+0'
+0<
+#403620
+1'
+1<
+#407960
+0'
+0<
+#412300
+1'
+1<
+#416640
+0'
+0<
+#420980
+1'
+1<
+#425320
+0'
+0<
+#425706
+1$
+b11110010 #
+1%
+17
+06
+19
+1:
+b1 P
+#429660
+1'
+1<
+b11110010 E
+b1 O
+b11110010 T
+0@
+b10 P
+b0 M
+1Q
+0B
+0A
+0X
+#434000
+0'
+0<
+#434387
+0$
+b11110010 ,
+09
+#438340
+1'
+1<
+b10 O
+1N
+0W
+1*
+0)
+0Q
+1Q
+1L
+b1 M
+1?
+1B
+#442680
+0'
+0<
+#443068
+b0 -
+#447020
+1'
+1<
+b1111001 E
+b1 F
+1@
+1X
+#451360
+0'
+0<
+#451749
+b1 -
+#455700
+1'
+1<
+b111100 E
+b10 F
+1W
+1)
+0@
+0X
+#460040
+0'
+0<
+#460430
+b10 -
+#464380
+1'
+1<
+b11110 E
+b11 F
+0W
+0)
+#468720
+0'
+0<
+#469111
+b11 -
+#473060
+1'
+1<
+b1111 E
+b100 F
+1@
+1X
+#477400
+0'
+0<
+#477792
+b100 -
+#481740
+1'
+1<
+b111 E
+b101 F
+1W
+1)
+#486080
+0'
+0<
+#486473
+b101 -
+#490420
+1'
+1<
+b11 E
+b110 F
+#494760
+0'
+0<
+#495154
+b110 -
+#499100
+1'
+1<
+b1 E
+b111 F
+1>
+b11 P
+0Q
+0L
+b0 M
+1Q
+1L
+b1 M
+0L
+0?
+#503440
+0'
+0<
+#503835
+b111 -
+#507780
+1'
+1<
+b0 F
+b11 O
+0>
+b100 P
+0Q
+b0 M
+1Q
+b10 M
+0B
+1A
+#512120
+0'
+0<
+#512516
+b1000 -
+1/
+#516460
+1'
+1<
+b100 O
+b0 P
+0Q
+b0 M
+1Q
+b11 M
+1B
+#520800
+0'
+0<
+#525140
+1'
+1<
+b0 O
+0Q
+b0 M
+b11 M
+#529480
+0'
+0<
+#533820
+1'
+1<
+0N
+0*
+#538160
+0'
+0<
+#542500
+1'
+1<
+#546840
+0'
+0<
+#551180
+1'
+1<
+#555520
+0'
+0<
+#559860
+1'
+1<
+#564200
+0'
+0<
+#568540
+1'
+1<
+#572880
+0'
+0<
+#577220
+1'
+1<
+#581560
+0'
+0<
+#585900
+1'
+1<
+#590240
+0'
+0<
+#594580
+1'
+1<
+#598920
+0'
+0<
+#603260
+1'
+1<
+#607600
+0'
+0<
+#611940
+1'
+1<
+#616280
+0'
+0<
+#620620
+1'
+1<
+#624960
+0'
+0<
+#629300
+1'
+1<

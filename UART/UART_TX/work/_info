@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_RX
+vFSM
+Z0 !s110 1723812537
+!i10b 1
+!s100 NR_C@CngGG3NSRnE;fKFj2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVEN0di7?G4>12El]B2PT]1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX
+w1723786250
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/FSM.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/FSM.v
+!i122 4
+L0 2 143
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1723812536.000000
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/FSM.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@s@m
+vMUX
+R0
+!i10b 1
+!s100 clUM;f[]eMl]zF5E[7_BG0
+R1
+IQ=aAKiaIEVPP838bF^dMh1
+R2
+R3
+w1723649176
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/MUX.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/MUX.v
+!i122 5
+L0 2 40
+R4
+r1
+!s85 0
+31
+Z7 !s108 1723812537.000000
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/MUX.v|
+!i113 1
+R5
+R6
+n@m@u@x
+vParity_Calc
+R0
+!i10b 1
+!s100 1WDH3C5el2QcU?WH9j<473
+R1
+IAIMD<2F:lhAKTeBCm>dYd3
+R2
+R3
+w1723785874
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Parity_Calc.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Parity_Calc.v
+!i122 6
+L0 1 47
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Parity_Calc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Parity_Calc.v|
+!i113 1
+R5
+R6
+n@parity_@calc
+vSerializer
+R0
+!i10b 1
+!s100 ae_hIEH<1[j;jZ]g@^4A_1
+R1
+I]L^1h5eA^z1:ET]Z>9@;B0
+R2
+R3
+w1723785674
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Serializer.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Serializer.v
+!i122 7
+L0 1 64
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Serializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/Serializer.v|
+!i113 1
+R5
+R6
+n@serializer
+vUART_TX
+R0
+!i10b 1
+!s100 TacM@dD_OhF:MiY4L=ffz2
+R1
+I74C2<PnYeEZ671?`_J`YZ2
+R2
+R3
+w1723785511
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX.v
+!i122 8
+L0 1 74
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX.v|
+!i113 1
+R5
+R6
+n@u@a@r@t_@t@x
+vUART_TX_TB
+R0
+!i10b 1
+!s100 _7HR@AzmDk0n3MDa]]Oin0
+R1
+IJo3feAOfTBS42Qh>Od01<0
+R2
+R3
+w1723728977
+8C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v
+FC:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v
+!i122 9
+L0 4 180
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/Verilog Projects/FINAL_SYSYEM/UART/UART_TX/UART_TX_TB.v|
+!i113 1
+R5
+R6
+n@u@a@r@t_@t@x_@t@b
